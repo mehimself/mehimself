@@ -3,7 +3,5 @@
 If you are still in doubt or clueless:
 
 
-I am known as co-founder of the [Center for Humanities Computing Aarhus](https://chcaa.io) and for my work at
-
-- the [Danish national Interactive HPC center](https://interactivehpc.dk)
-- the [CodeRefinery](https://coderefinery.org)
+I am co-founder of the [Center for Humanities Computing Aarhus](https://chcaa.io) and working here.  
+I also work for the [Danish national Interactive HPC center](https://interactivehpc.dk) and the [CodeRefinery](https://coderefinery.org)
