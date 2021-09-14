@@ -1,6 +1,6 @@
 ### Max. Eckardt. Himself!
 
-If you are still in doubt or clueless:
+If you are still in doubt:
 
 
 I am co-founder of the [Center for Humanities Computing Aarhus](https://chcaa.io) and working here.  
