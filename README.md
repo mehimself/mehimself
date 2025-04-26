@@ -11,12 +11,10 @@ GPT-based LLMs have effectively solved language and even offer spurious reasonin
 
 A more suitable solution for abstract thinking is symbolic reasoning with a world model. A world model maintains connections between knowledge and its abstractions (reasoning symbols), potentially aligned with reasoning traces:
 
-```
 - an apple is a physical object. 
 - physical objects are governed by physical laws
 - gravity is one of the physical laws
 - tha apple is subject to forces such as gravitaional pull
-```
 
 These traces represent physical, social, phenomenological, and epistemological relationships to a knowledge term in varying degrees of abstraction. The goal is to form an alignment between entries and viable chain-of-thought pathways. In contrast, LLMs neither maintain explicit references to specific terms nor provide connections readily interpretable by human minds. They learn from written language, which often includes “poisonous” patterns for reasoning: figures of speech, sarcasm, creative writing, personal accounts, and similar that do not necessarily cohere into a unified model of the world.
 
