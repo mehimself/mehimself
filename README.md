@@ -28,7 +28,7 @@ Knowledge indexing ultimately hinges on memory management. In social contexts, g
 
 The term “world model” thus describes an index of canonical terms and connections—focusing on quality rather than sheer scale by separating objective from subjective knowledge. Even processing miniscule or narrowly focused bodies of knowledge can streamline reasoning with moderately sized models. Subjective (even conflicting) terms can still be included for personalization, allowing world models to accommodate subtle biases in individual user contexts. This capability raises intriguing implications for the ethical use of AI going forward.
 
-I have written knowledge intergators for formal and prosaic texts, typed data, and ephemeral events for online knowledge graph tech demos and find that these repositories will form the foundation of the next generation of AI applications. 
+I have written knowledge integrators for formal and prosaic texts, typed data, and ephemeral events for online knowledge graph tech demos and find that these repositories will form the foundation of the next generation of AI applications. 
 
 ## Vibe Coding vs. Agentic Stack Maintenance
 Vibe coding uses LRM for code generation. Due to above limitations to LRM prompt complexity (and other issues) it is not applicable to maintain projects above a (very low) maturity. I have developed agentic strategies with custom semantic index with feathered-abstractions and symbol/reference resolution as a tech demo. This is equivalent to a mini world model for a hyper-formalized code base. It looks over-engineered, but to limit complexity to a proactical degree I had to formulate dozens of design patterns, paradigms, best-practices, and preferences.
