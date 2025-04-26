@@ -2,10 +2,10 @@
 
 I am Senior Software Engineer at the [Center for Hybrid Intelligence](https://mgmt.au.dk/center-for-hybrid-intelligence/). See my [CV on LinkedIn](https://www.linkedin.com/in/max-roald-eckardt-69706071/).
 
-I will use these pages as a blog for thoughts on topics close to my interests. 
+I will use these pages as a blog for commentary on topics close to my interests. 
 
 ## Yann leCun's World Model at Home 
-At Invidia GTC 2025 Yann LeCun excalaimed that he was "no longer so interested in LLMs anymore". Here is my take on why that is and what my personal approach to a economic evolution into the next gen genAI would be.
+At NVIDIA GTC 2025 Yann LeCun excalaimed that he was "not so interested in LLMs anymore." Here is my take on why that is and what my personal approach to a economic evolution into the next gen genAI would be.
 
 GPT-based LLMs have effectively solved language and even offer spurious reasoning. However, for many devevlopers the agentic AI experience feels like flirting with insanity because LLMs prioritize completion and syntactical integrity over rigorous reasoning and factual grounding. LRMs are essentially improvised architectures, cobbling together small reasoning capacities in meshed LLM runs to produce acceptable but poorly scalable results. The key challenge, therefore, is to manage complexity by breaking reasoning work into delegatable, manageable, and validatable (controllable) tasks and steps. GPTs excel at language generation but are less suited for abstract thinking in that language.
 
@@ -26,7 +26,7 @@ Knowledge indexing ultimately hinges on memory management. In social contexts, g
 
 The term “world model” thus describes an index of canonical terms and connections—focusing on quality rather than sheer scale by separating objective from subjective knowledge. Even processing miniscule or narrowly focused bodies of knowledge can streamline reasoning with moderately sized models. Subjective (even conflicting) terms can still be included for personalization, allowing world models to accommodate subtle biases in individual user contexts. This capability raises intriguing implications for the ethical use of AI going forward.
 
-I have written knowledge integrators for formal and prosaic texts, typed data, and ephemeral events for online knowledge graph tech demos and find that these repositories will form the foundation of the next generation of AI applications. 
+I have written knowledge integrators for formal and prosaic texts, typed data, highly structured data (annotated abstract syntax graphs for source code), and ephemeral events for online knowledge graph tech demos and find that these repositories will form the foundation of the next generation of AI applications. 
 
 ## Vibe Coding vs. Agentic Stack Maintenance
 Vibe coding uses LRM for code generation. Due to above limitations to LRM prompt complexity (and other issues) it is not applicable to maintain projects above a (very low) maturity. I have developed agentic strategies with custom semantic index with feathered-abstractions and symbol/reference resolution as a tech demo. This is equivalent to a mini world model for a hyper-formalized code base. It looks over-engineered, but to limit complexity to a proactical degree dozens of design patterns, paradigms, best-practices, and preferences had to be specified.
