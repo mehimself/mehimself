@@ -36,7 +36,7 @@ The notion “world model” thus describes an index of ___canonical and subject
 a) use current LLMs to integrate annotated knowledge graphs already today for specific use cases.
 b) optimize reasoning in runs with today's LLMs 
 
-Short of training such model with gigantic compute demands at home, we can contruct it as analog in a graph database fx. with neo4j and naturally integrate it as a RAG extension to any domain-driven LLM-based app.
+Short of training such model with gigantic compute demands at home, we can contruct it as analog in a graph database fx. with neo4j and naturally integrate it as a RAG extension to any domain-driven LLM-based app. As a matter of fact, the requirement of online models with intelligible reasoning paths would be well supported by classically scaling hardware.
 
 ## Initial Experience 
 I have conducted a series of experiments with MCP tooling to explore viable integration strategies across data types, and text document structures. I have written knowledge integrators for formal reference- and verbose texts, user-defined indexes for typed data, and custom digestion engines for highly structured data in streamed event architectures. 
