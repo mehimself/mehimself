@@ -4,17 +4,15 @@ I am Senior Software Engineer at the [Center for Hybrid Intelligence](https://mg
 
 I will use these pages as a blog for commentary on topics close to my interests. 
 
-# Yann leCun's World Model at Home 
-At NVIDIA GTC 2025 Yann LeCun excalaimed that he was "not so interested in LLMs anymore." Here is my take on why that is and what my personal approach to a economic evolution into the next gen genAI would be.
+# Domain-Driven World Models
+At NVIDIA GTC 2025 Yann LeCun excalaimed that he was "not so interested in LLMs anymore." He goes on appraising world model simulation-based AI models.
 
 GPT-based LLMs have effectively solved language and even offer spurious reasoning. However, for many devevlopers the agentic AI experience feels like flirting with insanity because LLMs prioritize completion and syntactical integrity over rigorous reasoning and factual grounding. Reasoning Models are essentially improvised architectures, cobbling together small reasoning capacities in meshed LLM runs to produce acceptable but poorly scalable results. The key challenge, therefore, is to manage complexity by breaking reasoning work into delegatable, manageable, and validatable (controllable) tasks and steps. GPTs excel at language generation but are less suited for abstract thinking in that language.
 
 A more suitable solution for abstract thinking is symbolic reasoning with a world model. A world model maintains connections between knowledge and its abstractions (reasoning symbols), potentially aligned with _reasoning traces_:
 
-- an __apple__ is a __physical object__. 
-- __physical objects__ are governed by __physical laws__
-- __gravity__ is one of the __physical laws__
-- tha __apple__ is subject to forces such as __gravitaional pull__
+- an __(apple)__ is a __(physical object)__ are governed by __(physical laws)__ featuring __(gravity)__
+- thus __(gravity)__ applies to __{apples}__
 
 These _traces_ represent physical, social, phenomenological, and epistemological relationships to a ___knowledge term___ in varying degrees of abstraction. The goal is to form an alignment between entries and viable chain-of-thought pathways. In contrast, LLMs neither maintain explicit references to specific ___terms___ nor provide connections readily interpretable by human minds. They learn from written language, which often includes “poisonous” patterns for reasoning: figures of speech, sarcasm, creative writing, personal accounts, and similar that do not necessarily cohere into a unified model of the world.
 
