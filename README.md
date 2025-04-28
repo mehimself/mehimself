@@ -2,7 +2,7 @@
 
 I am Senior Software Engineer at the [Center for Hybrid Intelligence](https://mgmt.au.dk/center-for-hybrid-intelligence/). See my [CV on LinkedIn](https://www.linkedin.com/in/max-roald-eckardt-69706071/).
 
-I will use these pages as a blog for commentary on topics close to my interests. 
+I use these pages as a blog for commentary on topics close to my interests. 
 
 # Domain-Driven World Models
 At NVIDIA GTC 2025 Yann LeCun excalaimed that he was "not so interested in LLMs anymore." He goes on appraising world model simulation-based AI models. What are the implications for software developers today?
