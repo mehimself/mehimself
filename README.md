@@ -89,7 +89,7 @@ So, how do we use these reasoning models for high-quality, scalable development?
 - summarize the changes in the thread
 - _Commit_, _revisit_, or _revert_ changes based on user response
 
-I think human piloting is essential. Especially reasoning models undergo subtle changes over time and have occasional disconnects and after all: Our payload is a ___user experience___.  
+I think human piloting is essential. Especially reasoning models undergo subtle changes over time and have occasional disconnects and after all: Our payload is ___user experience___.  
 
 
 
