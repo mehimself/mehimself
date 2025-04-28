@@ -5,28 +5,43 @@ I am Senior Software Engineer at the [Center for Hybrid Intelligence](https://mg
 I will use these pages as a blog for commentary on topics close to my interests. 
 
 # Domain-Driven World Models
-At NVIDIA GTC 2025 Yann LeCun excalaimed that he was "not so interested in LLMs anymore." He goes on appraising world model simulation-based AI models.
+At NVIDIA GTC 2025 Yann LeCun excalaimed that he was "not so interested in LLMs anymore." He goes on appraising world model simulation-based AI models. What are the implications for software developers today?
 
-GPT-based LLMs have effectively solved language and even offer spurious reasoning. However, for many devevlopers the agentic AI experience feels like flirting with insanity because LLMs prioritize completion and syntactical integrity over rigorous reasoning and factual grounding. Reasoning Models are essentially improvised architectures, cobbling together small reasoning capacities in meshed LLM runs to produce acceptable but poorly scalable results. The key challenge, therefore, is to manage complexity by breaking reasoning work into delegatable, manageable, and validatable (controllable) tasks and steps. GPTs excel at language generation but are less suited for abstract thinking in that language.
+## Beyond language - Symbolic Reasoning
+GPT-based LLMs have effectively solved language and even offer spurious _reasoning_. However, for many developers the agentic AI experience feels like flirting with insanity. LLMs, the basic component of agentic AI tooling, heavily prioritize completion and syntactical integrity over _rigorous reasoning_ and _factual grounding_. 
 
-A more suitable solution for abstract thinking is symbolic reasoning with a world model. A world model maintains connections between knowledge and its abstractions (reasoning symbols), potentially aligned with _reasoning traces_:
+Even "_Reasoning models_" are essentially improvised architectures, cobbling together small _reasoning capacities_ in meshed LLM runs to produce acceptable but poorly scalable results. The key challenge, therefore, is to manage complexity by breaking _reasoning work_ into delegatable, manageable, and validatable (controllable) tasks and steps. GPTs excel at language generation but are less suited for abstract thinking in that language. Optimally the reasoning model would be explainable.
+
+One suitable solution for abstract thinking is _symbolic reasoning_ with a ___world model___. A ___world model___ maintains connections between knowledge and its abstractions (__reasoning symbols__), potentially aligned with __reasoning traces__ forming deduced and induced relationships:
 
 - an __(apple)__ is a __(physical object)__ are governed by __(physical laws)__ featuring __(gravity)__
 - thus __(gravity)__ applies to __{apples}__
 
-These _traces_ represent physical, social, phenomenological, and epistemological relationships to a ___knowledge term___ in varying degrees of abstraction. The goal is to form an alignment between entries and viable chain-of-thought pathways. In contrast, LLMs neither maintain explicit references to specific ___terms___ nor provide connections readily interpretable by human minds. They learn from written language, which often includes “poisonous” patterns for reasoning: figures of speech, sarcasm, creative writing, personal accounts, and similar that do not necessarily cohere into a unified model of the world.
+These _traces_ represent physical, social, phenomenological, and epistemological relationships to a ___knowledge term___ in varying degrees of abstraction. The goal is to form an alignment between entries and viable chain-of-thought pathways. In contrast, LLMs neither maintain explicit references to specific ___terms___ nor provide connections readily interpretable by human minds. They learn from written language, which often includes “poisonous” patterns for reasoning: figures of speech, sarcasm, creative writing, personal accounts, and similar that do not necessarily cohere into a congruent core model of the world.
 
-Generating and maintaining a Vulcan-like account of humanity’s world promises more efficient navigation in the abstract plane of common-sense problem solving. To achieve this, we must disambiguate subjective accounts into objective- (canonical) ___knowledge___ and ___knowledge terms___ that disambiguate in their abstract relationships. In the canonical representation, a higher temperature does not spark fringe perspectives but rather remains tied to abstract formalisms of the issue referenced in a prompt. Of course, this distinction is both debatable and problematic in certain domains, as evidenced by fx. Wikipedia article-editing wars.
+## Canonical Core
+Generating and maintaining a Vulcan-like account of humanity’s world promises more efficient navigation in the abstract plane of common-sense problem solving. Such basic canonical techno-positivistic observations would form the core of our ___world model___. Here problem solving follows curved reasoning paths starting with a specific issue extrapolating into abstract ultimately _symbolic reasoning_ and arrives at potential specific solutions. This would service causal regression and heuristic approaches to problem solving. Higher temperature in the core lead to more abstract thinking allowing to evaluate increasingly abstract/symbolic reasoning for a given solution.
 
-We can still leverage the embeddings of LLMs and the (canonical-ish) synthesis achieved by reasoning models. In practice, a LLM-informed Neural Network (LLMINN) might process a set of ___knowledge terms___ (e.g., an English dictionary) across a limited set of abstractions with anchor ___terms___ for human intelligibility. Its pipeline would escalate term processing strategies based on the criteria above, prompting a reasoning model or even requesting human input for particularly challenging or contested ___terms___.
+## Setting Life to the World Model
+The Vulcan's impeccable logic does not serve wicked social issues though. Our ___world model___ needs to be lived in before we can attempt to address social issues. The challenge here is that our individually perceived realities do not align very well. To account for this, we must extend the technological positivistic (canonical) core with subjective accounts from individual users. These outer layers trace individual stakes and user experiences with deep connections to the core. 
 
-Knowledge indexing ultimately hinges on memory management. In social contexts, ground truth is neither static nor purely objective, which introduces data quality challenges and overheads. Abstract projections can mitigate some of these concerns, but evolving beyond a static snapshot requires synchronization work. Planting ___anchor terms___ to link key lemmas and symbols fosters explainability, browseable reasoning paths, and verifiable outputs.
+## Explainability
+In practice, a LLM-informed Neural Network (LLMINN) might process a set of ___knowledge terms___ (e.g., an English dictionary) across a limited set of abstractions with anchor ___terms___ for human intelligibility. Its pipeline would escalate term processing strategies based on the criteria above, prompting a reasoning model or even requesting human input for particularly challenging or ___contested terms___.
 
-The notion “world model” thus describes an index of canonical ___terms___ and connections—focusing on quality rather than sheer scale. They resolve ___terms___ and realtionships as intelligible annotated structures. ___Processing even miniscule or narrowly focused bodies of knowledge can streamline reasoning with moderately sized models___. Subjective (even conflicting) ___terms___ can still be included for personalization, allowing world models to accommodate subtle biases in individual user contexts. (This capability raises intriguing implications for the ethical use of AI going forward).
+Knowledge indexing ultimately hinges on memory management. In social contexts, ground truth is neither static nor purely objective, which introduces data quality challenges and overheads. Abstract projections can mitigate some of these concerns, but evolving beyond a static snapshot requires synchronization work. Planting ___anchor terms___ to link key lemmas and symbols fosters explainability, regressible trees of thought, and testable outputs.
 
-I have written knowledge integrators for formal reference- and verbose texts, typed data, highly structured data, and ephemeral events for online knowledge graph tech demos and found that custom knowledge graphs form the foundation for the next generation of AI applications. 
+## Synergistic Compatibility
+The notion “world model” thus describes an index of ___canonical and subjective terms___ and connections, focusing on quality rather than sheer scale. They resolve ___terms and relationships___ as intelligible annotated structures. The best thing about world models is their intuitive nature, modular extensible composition, and the affordance to be maintained, extended, and reviewed by human operators. Maximizing _intelligibility_ empowers us also to reach optimal reasoning with current LLMs with semantic retrievals. This allows us to 
+
+a) use current LLMs to integrate annotated knowledge graphs already today for specific use cases.
+b) optimize reasoning in runs with today's LLMs 
+
+## Initial Experience 
+I have conducted a series of experiments with MCP tooling to explore viable integration strategies across data types, and text document structures. I have written knowledge integrators for formal reference- and verbose texts, user-defined indexes for typed data, and custom digestion engines for highly structured data in streamed event architectures. 
 
 Especially deeply structural data, such as Abstract Syntax Trees (AST) cross referenced with scope annotations and symbol-reference tracing, offer an extremely promising reduction in complexity by offering navigatable and selectable textures. This stabilizes reasoning with genAI models and supports sustained agentic code maintenance with a developer piloting it. The setup requires an experienced programmer / architect.
+
+
 
 # Vibe Coding vs. Agentic Code Copilots
 Vibe coding uses LLMs or reasoning models (LRMs) for code generation. With democratized access to these tools, we can create functional applications in minutes, or maybe within a few hours of chatting. So, what prevents vibe coding from scaling into production?
