@@ -31,10 +31,12 @@ In practice, a LLM-informed Neural Network (LLMINN) might process a set of ___kn
 Knowledge indexing ultimately hinges on memory management. In social contexts, ground truth is neither static nor purely objective, which introduces data quality challenges and overheads. Abstract projections can mitigate some of these concerns, but evolving beyond a static snapshot requires synchronization work. Planting ___anchor terms___ to link key lemmas and symbols fosters explainability, regressible trees of thought, and testable outputs.
 
 ## Synergistic Compatibility
-The notion “world model” thus describes an index of ___canonical and subjective terms___ and connections, focusing on quality rather than sheer scale. They resolve ___terms and relationships___ as intelligible annotated structures. The best thing about world models is their intuitive nature, modular extensible composition, and the affordance to be maintained, extended, and reviewed by human operators. Maximizing _intelligibility_ empowers us also to reach optimal reasoning with current LLMs with semantic retrievals. This allows us to 
+The notion “world model” thus describes an index of ___canonical and subjective terms___ and connections, focusing on quality rather than sheer scale. They resolve ___terms and relationships___ as intelligible annotated structures. The best thing about world models is their intuitive nature, modular extensible composition, and the affordance to be maintained, extended, and reviewed by human operators. Maximizing _intelligibility_ empowers us also to reach optimal reasoning with current LLMs with semantic retrievals. This allows us to: 
 
 a) use current LLMs to integrate annotated knowledge graphs already today for specific use cases.
 b) optimize reasoning in runs with today's LLMs 
+
+Short of training such model with gigantic compute demands at home, we can contruct it as analog in a graph database fx. with neo4j and naturally integrate it as a RAG extension to any domain-driven LLM-based app.
 
 ## Initial Experience 
 I have conducted a series of experiments with MCP tooling to explore viable integration strategies across data types, and text document structures. I have written knowledge integrators for formal reference- and verbose texts, user-defined indexes for typed data, and custom digestion engines for highly structured data in streamed event architectures. 
