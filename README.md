@@ -81,7 +81,7 @@ The point of above paradigms is to remove implicit knowledge form any given scop
 ## Limits of Automation
 When it comes to sustaining high-quality code, a test-driven and piloted approach is critical. No matter how sophisticated generative tools become, software quality is not fully automatable with LLMs. It takes only a single hallucination, or temporary omission to introduce fundamental flaws. Continuous integration, test-driven development, and diligent pilot-testing of newly generated features are essential to catch these potential failures before they reach production. Requirements can change at any time, and a human-in-the-loop process ensures ongoing alignment between evolving user needs and the codebase. My best bet is to implement rigorous test-driven-development (TDD) with an agentic copilot TDD naturally enforces above paradigms and being with generative support could leave the quality control and creative freedom to the human pilot. Human piloting is essential 
 
-## Experience
+## Workflow
 So, how do we use these reasoning models for high-quality, scalable development? For best cognitive support we need to globally minimize complexity. Break the work into tasks, and resolve each task into refactoring strategies. These strategies involve nine parts navigation and delimitation, and one part code replacement. When targeting a change in behavior: 
 
 - isolate the relevant symbols
@@ -93,7 +93,12 @@ So, how do we use these reasoning models for high-quality, scalable development?
 - summarize the changes in the thread
 - _Commit_, _revisit_, or _revert_ changes based on user response
 
-I think human piloting is essential. Especially reasoning models undergo subtle changes over time and have occasional disconnects and after all: Our payload is ___user experience___.  
+## Capitalizing on Experience 
+LLM reasoning, which we rely on to generate code, works by finding patterns to use in its generations. Its 'search stamina' is very limited and needs to be contextualized by your prompt to yield worthwhile output. The better you are at projecting which stereotypical design patterns used by developers qualify for your task the better results you will get. System designers, software architects, and programmers, who are trained to communicate prospective state machines, maintain a rich corpus of named design patterns and strategies for this exact purpose. Named patterns prime LLMs to select referenced patterns allowing efficient control over flow, architecture, modality, and functionality. This is how experienced programmers gain more value with LLMs than beginners. 
 
+If you try getting-to-work one-shot LLM generated code in a thread and complain about the ~1000 lines (moving goalpost) limitation with code generation tools, you are doing it wrong. Use design patterns to lay out how your code resolves into layers and modules before soving each module across all layers separately, incrementally. 
+
+## Navigate Code in Three Dimensions
+Code can roughly be spread out in three dimensions. Named design patterns help you specify ___layers and nesting___, ___disambiguation and concurrency___, and ___events and exceptions___. Once you prime reasoning for with referenes to where which dedicated module is supposed to do what, even vague formulations yield great results. In the vast majorit programmers all struggle with shared problems. The solutions are out there and have been learnt by LLMs. Being unoriginal, boring, and predictive have been the gold standard in programming since its inception, capitalize on it! 
 
 
