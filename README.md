@@ -61,7 +61,16 @@ This is one of the most basic cypher query if you chose to use Neo4j.
 ## What are the benefits?
 In the scope of this post we (in)form the prompting context of LLMs. While LLM models have cut-off dates months or years in the past, knowledge graphs can be operated ___online___ with lags as short as a single LLM interaction. 
 
-As a user-centered designer I would ask where you assign most value to improved LLM memory. As a power user of LLMs I would say that ___accuracy___ is most important. I do not want irrelevant or outright false details to derail the LLM. Then I would rank ___recall___ a close second, considering all existing entries for a topic perfectly complements the inherent limitaions of LLMs. Speaking of considering entries, I would love for them and their relationships to be explorable, browsable. Imagine being able to tell where your blind-spots lie, or which source introduced erroneous facts by simply looking it up.
+As a user-centered designer I would ask where you assign most value to improved LLM memory. As a power user of LLMs I would list the following qualities to complement LLM with their inherent limitations:
+
+ - ___accuracy___: I do not want irrelevant or outright false details to derail the LLM
+ - ___verifiability___: Enable me to verify reasoning based on the sourced knowledge. Learning by doing.
+ - ___recall___: exploratively considering all existing entries without changing the context is priceless
+ - ___intelligibility___: allowing me to explore and browsable knowledge
+ - ___curatability___: being allowed to balance sources for their content or perspective
+ - ___access control___: allow me to declare knowledge sections that have access control
+
+Imagine being able to tell where your blind-spots lie, or which source introduced erroneous facts by simply looking it up. 
 
 For a [modicum of consideration](https://github.com/mehimself/mehimself/tree/main?tab=readme-ov-file#a-modicum-of-consideration) graph databases give us all of the above. Graphs can be naturally browsed as layers. One layer may contain user accounts, another may contain our product database, and the knowledge base would be residing in yet another sphere. This labeling of layers/data types increases intelligibility and allows us humans to exploratively navigate relationships within- and across layers and topics. 
 
@@ -79,6 +88,8 @@ RETURN product LIMIT 3
 For more complex and idiosyncratic data structures you may have to provide schemas, or instruct the LLM to retrieve them itself. 
 
 In my experience LLMs are great at generating cypher queries. The top tier LLMs reproduce complex queries with hundreds of lines that took me days to refine in mere minutes. Combined with homomorphic encryption this approach allows your data to remain private even when using vendors without data processing agreement. This should also apply to SQL DBMS.
+
+This integration of knowledge goes way beyond corrective RAGs (CRAG).
 
 By vectorizing text fields, custom annotations, and document texts, you can embed products alongside knowledge terms for a dense and efficient memory architecture compatible with LLM prompt contexts. Such knowledge integration lays the foundation for a plethora of next-generation services.
 
@@ -111,6 +122,8 @@ What payload should knowledge database nodes (___terms___) hold? Which ontology 
 Avoid idiosyncratic ontologies and keep type casting limited to a technological necessity. 
 
 Online graphs require a constant upkeep, immutable graphs may be generated in an temporary effort.
+
+
 
 # Vibe Coding vs. Agentic Code Copilots
 Vibe coding uses LLMs or reasoning models (LRMs) for code generation. With democratized access to these tools, we can create functional applications in minutes, or maybe within a few hours of chatting. So, what prevents vibe coding from scaling into production?
