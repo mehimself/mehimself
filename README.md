@@ -82,12 +82,15 @@ In my experience LLMs are great at generating cypher queries. The top tier LLMs 
 
 By vectorizing text fields, custom annotations, and document texts, you can embed products alongside knowledge terms for a dense and efficient memory architecture compatible with LLM prompt contexts. Such knowledge integration lays the foundation for a plethora of next-generation services.
 
-## [A Modicum of Consideration]()
+## Legal Considerations
 ___GDPR___. Personalized knowledge ingestion and synthesis probably is what the GDPR is regulating most effectively. If you integrate personal data at any time you need informed consent. The delimitation of your data usage ___will not be trivial and will make or break your venture___. While this sounds defeatist the future of AI definitely lies in data processing. Some may decide to operate in legal limbo until proven right or wrong. In any case: while your knowledge graph may be mutable, your data processing pipelines definitely cannot. 
 
 Copyrighted works and intelligible memory design form complications. The internal representation of your graph could count as storage of copyrighted works. A more fragmented corpus design where shared lemmas reference each other, and higher-level layers project the essence of individual works in symbolic unintelligible representations would resemble LLM models. Both are currently disputed with extremely high stakes for the future of genAI.
 
-It requires a dedicated private LLM instance to process ingested knowledge within a domain you can control. If regional laws apply you may be limited to local or regional vendors of dedicated compute. Online graphs require a constant upkeep, immutable graphs may be generated in an temporary effort.
+It requires a dedicated private LLM instance to process ingested knowledge within a domain you can control. 
+If regional laws apply you may be limited to local or regional vendors of dedicated compute. 
+
+## [A Modicum of Consideration]()
 
 As is clear to all of us data comes in different types and along follow respective rights and responsibilities. To accomodate regulations, security, and privacy you need to define privileged access architecture. Graphs have many dimensions. Good architecture prevents unauthorized access on low and redundant levels (dbms + controllers). 
 
@@ -105,7 +108,7 @@ What payload should knowledge database nodes (___terms___) hold? Which ontology 
 
 Avoid idiosyncratic ontologies and keep type casting limited to a technological necessity. 
 
-
+Online graphs require a constant upkeep, immutable graphs may be generated in an temporary effort.
 
 # Vibe Coding vs. Agentic Code Copilots
 Vibe coding uses LLMs or reasoning models (LRMs) for code generation. With democratized access to these tools, we can create functional applications in minutes, or maybe within a few hours of chatting. So, what prevents vibe coding from scaling into production?
