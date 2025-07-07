@@ -39,7 +39,7 @@ export default {
         linkify: true,
         typographer: true,
         breaks: true,
-        highlight: function (str, lang) {
+        highlight: function (str) {
           // Simple syntax highlighting placeholder
           return `<pre class="hljs"><code>${str}</code></pre>`
         }
