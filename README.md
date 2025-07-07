@@ -1,6 +1,6 @@
 # Max Roald Eckardt
 
-**Senior Software Engineer** at the [Center for Hybrid Intelligence](https://mgmt.au.dk/center-for-hybrid-intelligence/)
+**Senior Solution ARchitect** with the **GenAI Tribe** at [Danske Bank](https://danskebank.com/)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/max-roald-eckardt-69706071/)
 [![Website](https://img.shields.io/badge/Website-mehimself.github.io-green?style=flat&logo=github)](https://mehimself.github.io)
