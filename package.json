@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "vue": "^3.0.0",
-    "vue-router": "^4.0.0"
+    "vue-router": "^4.0.0",
+    "vue3-markdown-it": "^1.0.10"
   },
   "devDependencies": {
     "@babel/core": "^7.28.0",
